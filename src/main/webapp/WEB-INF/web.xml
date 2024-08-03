@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+//   USER SIGNUP CONFIGURATION--
+		<servlet-name>UserSignup</servlet-name>
+		<servlet-class>com.user.UserSignup</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserSignup</servlet-name>
+		<url-pattern>/abc</url-pattern>
+	</servlet-mapping>
+
+//    USER LOGIN CONFIGURATION--:>
+
+<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.user.UserLogin</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/xyz</url-pattern>
+	</servlet-mapping>
+	
+	
+	// ADMIN LOGIN CONFIGURATION-->
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.admin.AdminLogin</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/asdf</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
